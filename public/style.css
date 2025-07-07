@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional custom styles */
+.container {
+  @apply max-w-6xl mx-auto;
+}
+
+.video-player {
+  @apply w-full rounded-lg shadow-md;
+}
+
+.download-button {
+  @apply p-3 bg-blue-600 hover:bg-blue-700 text-white rounded-md text-center transition-colors duration-200;
+}
+
+.input-field {
+  @apply w-full p-3 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.button-primary {
+  @apply bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 rounded-md transition-colors duration-200;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-md p-6 mb-6;
+}
+
+.loader {
+  @apply animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500 mx-auto;
+}
